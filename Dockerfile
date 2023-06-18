@@ -1,2 +1,2 @@
 FROM tomcat:10-jdk17-openjdk-buster
-COPY java-project/target/*.war /usr/local/tomcat/webapps
+COPY Docker-web-project-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps
